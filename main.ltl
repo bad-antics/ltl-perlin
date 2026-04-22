@@ -1,0 +1,15 @@
+// ltl-perlin/main.ltl
+//
+// Perlin + simplex noise for procedural textures.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-perlin v0.1.0")
+    io::println("Perlin + simplex noise for procedural textures.")
+    0
+}
